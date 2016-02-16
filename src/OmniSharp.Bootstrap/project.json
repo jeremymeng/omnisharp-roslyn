@@ -5,8 +5,7 @@
   },
   "dependencies": {
     "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-*",
-    "Microsoft.Extensions.PlatformAbstractions.Dnx": "1.0.0-rc2-*",
-    "Newtonsoft.Json": "7.0.1"
+    "Newtonsoft.Json": "8.0.2"
   },
   "commands": {
     "omnisharp.bootstrap": "run"
@@ -19,6 +18,7 @@
     },
     "dnxcore50": {
       "dependencies": {
+        "Microsoft.NETCore.Platforms": "1.0.1-rc2-*",
         "NETStandard.Library": "1.0.0-rc2-*",
         "System.Dynamic.Runtime": "4.0.11-rc2-*",
         "System.Security.Cryptography.Algorithms": "4.0.0-rc2-*"
